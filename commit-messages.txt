@@ -1,0 +1,14 @@
+Notes about git commit messages:
+-(git configuration) use 'git config --global core.editor "code --wait"' to set VSCode as the Git editor (or use other IDE of choice in place of VSCode)
+-separate the message into a subject line and body line
+	- most conveniently done by using an IDE to write the message, as opposed to writing it in the terminal. with the git configuration above 'git commit' will open up VSCode to type the commit message
+	- separate them with a blank line
+	- subject line is ideally kept within 50 characters, and should not be kept above 72
+		- if the commit includes too many changes to summarise within that limit, use frequent smaller commits instead of infrequent big ones
+	- Capitalise the subject line
+	- do not end the subject line with a period
+	- use the imperative mood in the subject line (written like an instruction, for example instead of "added feature x" write "add feature x"
+	- wrap the body at 72 characters
+	- use the body to explain what you did and why, not how you did it
+
+
